@@ -14,7 +14,7 @@
 
   @include respond(phone) {
     position: relative;
-    background: #05264E;
+    background: linear-gradient(45deg, #143459, #06274e);
     padding: 2rem;
   }
 

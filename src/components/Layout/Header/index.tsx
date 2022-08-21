@@ -32,7 +32,10 @@ const Header = (props: any) => {
 
   return (<header className='header'>
       <div className='logo-box'>
-        <img src="/logo.png" alt="" />
+        {
+          width &&
+          <img src={isPhone ? '/logo-white.png' : '/logo.png'} alt="" />
+        }
       </div>
       {
         isPhone ?

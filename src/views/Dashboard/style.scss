@@ -13,10 +13,10 @@
     max-width: 100%;
     overflow: hidden;
     background-size: cover;
-    background-position: right;
+    background-position: left;
 
     @include respond(phone) {
-      height: 60vh;
+      height: 250px;
     }
 
     &__content {
@@ -32,7 +32,7 @@
       max-width: 80%;
       margin-bottom: 5rem;
       @include respond(phone) {
-        max-width: 60%;
+        max-width: 50%;
       }
     }
 
@@ -45,7 +45,7 @@
       margin: auto;
 
       @include respond(phone) {
-        font-size: 24px;
+        font-size: 20px;
       }
     }
 
