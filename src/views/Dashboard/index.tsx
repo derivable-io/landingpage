@@ -16,7 +16,7 @@ const features = [
   },
   {
     image: 'automated.png',
-    title: 'automated',
+    title: 'Automated',
     des: 'Safekeeping by market incentive.'
   },
   {
