@@ -69,11 +69,11 @@
   }
 
   .content {
-    background: url("../../assets/images/dashboard/bg2.png");
+    //background: url("../../assets/images/dashboard/bg2.png");
     background-size: cover;
 
     @include respond(phone) {
-      background: url("../../assets/images/dashboard/bg2_mobile.png");
+      //background: url("../../assets/images/dashboard/bg2_mobile.png");
       background-size: cover;
     }
   }
@@ -81,6 +81,7 @@
   .protocol {
     text-align: center;
     margin-top: 5rem;
+    margin-bottom: 20rem;
 
     &__top {
       display: flex;
@@ -196,7 +197,8 @@
 
     &-1 {
       margin-top: 6rem;
-      margin-bottom: 10rem;
+      margin-bottom: 20rem;
+
 
       & .diagram {
         display: flex;
@@ -259,7 +261,8 @@
     }
 
     &-2 {
-      margin-bottom: 10rem;
+      margin-bottom: 20rem;
+
 
       .diagram-2 {
         display: block;
@@ -269,7 +272,8 @@
     }
 
     &-3 {
-      margin-bottom: 12rem;
+      margin-bottom: 20rem;
+
 
       .diagram-3 {
         margin-top: 10rem;
