@@ -1,3 +1,332 @@
-.dashboard {
+@import "../../style/abstracts/variables";
+@import "../../style/abstracts/mixins";
 
+.landing-page {
+  background: $color-background;
+
+  .head {
+    background: url("../../assets/images/dashboard/bg1.png");
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    max-width: 100%;
+    overflow: hidden;
+    background-size: cover;
+    background-position: right;
+
+    @include respond(phone) {
+      height: 60vh;
+    }
+
+    &__content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      width: 100%;
+    }
+
+    &__typo {
+      max-width: 80%;
+      margin-bottom: 5rem;
+      @include respond(phone) {
+        max-width: 60%;
+      }
+    }
+
+    &__title {
+      color: white;
+      font-size: 4.6rem;
+      width: 700px;
+      max-width: 100%;
+      padding: 0 2rem;
+      margin: auto;
+
+      @include respond(phone) {
+        font-size: 24px;
+      }
+    }
+
+    .overlay {
+      position: absolute;
+      bottom: -95px;
+      left: 0;
+      width: 104%;
+      height: 30%;
+      background: #02050A;
+      filter: blur(43px);
+    }
+  }
+
+  .content {
+    background: url("../../assets/images/dashboard/bg2.jpg");
+    background-size: cover;
+  }
+
+  .protocol {
+    text-align: center;
+    margin-top: 5rem;
+
+    &__top {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 4rem;
+    }
+
+    &__left {
+      padding-right: 4rem;
+
+      &-item {
+        font-family: 'Space Grotesk';
+        font-weight: 700;
+        font-size: 3.2rem;
+        color: white;
+        text-align: left;
+        margin-bottom: 1rem;
+        @include respond(phone) {
+          font-size: 20px;
+        }
+      }
+
+      &-item::first-letter {
+        color: $color-primary !important;
+      }
+    }
+
+    &__right {
+      font-family: 'Space Grotesk';
+      padding-left: 4rem;
+      padding-top: 4.5rem;
+      padding-bottom: 4.5rem;
+      font-weight: 700;
+      font-size: 3.2rem;
+      border-left: 3px solid $color-secondary;
+      @include respond(phone) {
+        font-size: 20px;
+      }
+    }
+
+    &__des {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 2rem;
+      text-align: center;
+      max-width: 71rem;
+      margin: 0 auto;
+      padding: 0 2rem;
+      margin-bottom: 6rem;
+    }
+
+    &__diagram {
+      max-width: 1200px;
+      margin: auto;
+      margin-top: 6rem;
+
+      img {
+        max-width: 80%;
+      }
+
+      &--title {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 3rem;
+        padding: 0 2rem;
+
+        & > * {
+          font-family: 'Space Grotesk';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 3.2rem;
+          @include respond(phone) {
+            font-size: 20px;
+            color: $color-secondary-dark;
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+
+  .description {
+    & .title {
+      font-family: 'Space Grotesk';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 3.2rem;
+      text-align: center;
+      margin-bottom: 2rem;
+      padding: 0 2rem;
+
+      @include respond(phone) {
+        font-size: 20px;
+      }
+    }
+
+    & .des {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 2rem;
+      text-align: center;
+      margin-bottom: 7rem;
+      padding: 0 2rem;
+
+      @include respond(phone) {
+        margin-bottom: 4rem;
+        font-size: 16px;
+      }
+    }
+
+    &-1 {
+      margin-top: 6rem;
+      margin-bottom: 10rem;
+
+      & .diagram {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10rem;
+        padding: 0 2rem;
+
+        button {
+          background: #FFFFFF;
+          box-shadow: 0px 3.00353px 10.5123px rgba(0, 0, 0, 0.08);
+          border-radius: 7.76964px;
+          padding: 1.5rem 2rem;
+          color: #000;
+          font-size: 2rem;
+          font-weight: 500;
+        }
+
+        .swap-icon {
+          position: relative;
+          height: 2px;
+          width: 3rem;
+          background: white;
+          display: block;
+          margin-left: 4px;
+          margin-right: 4px;
+
+          &::before, &::after {
+            content: "";
+            position: absolute;
+            width: 1rem;
+            height: 1rem;
+          }
+
+          &::before {
+            left: -4px;
+            top: calc(50% - 1px);
+            transform: rotate(45deg) translateY(-50%);
+            border-left: 2px solid white;
+            border-bottom: 2px solid white;
+          }
+
+          &::after {
+            right: 2px;
+            top: calc(50% - 1px);
+            border-right: 2px solid white;
+            border-top: 2px solid white;
+            transform: rotate(45deg) translateY(-50%);
+          }
+        }
+      }
+
+      .diagram-1 {
+        display: block;
+        margin: auto;
+        max-width: 80%;
+      }
+    }
+
+    &-2 {
+      margin-bottom: 10rem;
+
+      .diagram-2 {
+        display: block;
+        margin: auto;
+        max-width: 80%;
+      }
+    }
+
+    &-3 {
+      margin-bottom: 12rem;
+
+      .diagram-3 {
+        margin-top: 10rem;
+        display: block;
+        margin: auto;
+        max-width: 80%;
+      }
+    }
+  }
+
+  .features {
+    padding-bottom: 10rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+    &__title {
+      font-family: 'Space Grotesk';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 3.2rem;
+      text-align: center;
+      margin-bottom: 5rem;
+    }
+
+    &__items {
+      max-width: 1370px;
+      display: grid;
+      margin: auto;
+      grid-template-columns: 1fr 1fr 1fr;
+
+      @include respond(tablet) {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      @include respond(phone) {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    &__item {
+      background: #191818;
+      border-radius: 16px;
+      margin: 1rem;
+      padding: 4rem;
+      box-sizing: border-box;
+      min-height: 20rem;
+
+      &--head {
+        display: flex;
+        align-items: center;
+        margin-bottom: 2rem;
+      }
+
+      &--logo {
+        width: 5rem;
+      }
+
+      &--title {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2rem;
+        margin-left: 1.5rem;
+      }
+
+      &--des {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.6rem;
+        color: #FFFFFF;
+      }
+    }
+  }
 }

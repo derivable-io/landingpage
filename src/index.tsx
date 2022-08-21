@@ -10,9 +10,6 @@ function Blocklist({ children }: { children: ReactNode }) {
 
 ReactDOM.render(
   <React.StrictMode>
-    <video autoPlay muted loop className='video-bg'>
-      <source src='/bg.mp4' type='video/mp4' />
-    </video>
     <Blocklist>
       <Providers>
         <App />
