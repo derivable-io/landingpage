@@ -48,28 +48,36 @@ const Dashboard = () => {
       <div className='content'>
         <div className='protocol'>
           <div className='protocol__top'>
-            <div className='protocol__left'>
-              <p className='protocol__left-item'>Decentralized </p>
-              <p className='protocol__left-item'>Derivatives</p>
-              <p className='protocol__left-item'>Liquidity</p>
-            </div>
-            <div className='protocol__right'>
-              Protocol
+            <div className='section-header'>
+              <p className='section-header-item'>Decentralized </p>
+              <p className='section-header-item'>Derivatives</p>
+              <p className='section-header-item'>Liquidity</p>
             </div>
           </div>
           <div className='protocol__des'>
             The world&rsquo;s first derivatives protocol designed for the cost and scarceness of Layer-1 blockchain
             resources.
           </div>
-          <div className='protocol__diagram'>
-            <div className='protocol__diagram--title'>
-              <h2
-                className='protocol__diagram--title-1'>{isPhone ? 'Derivatives Market' : 'Traditional Derivatives Market'} </h2>
-              <h2 className='protocol__diagram--title-2'>{isPhone ? 'DDL' : 'Decentralized derivaties liquidity'}</h2>
-            </div>
-            <img src="/images/dashboard/diagram.png" alt="" className='protocol__diagram--img' />
+
+          <div className='diagram-1'>
+            <img src="/images/dashboard/diagram-4.png" alt="" className='protocol__diagram--img' />
           </div>
         </div>
+
+        <div className='tdm'>
+          <div className='section-header'>
+            <p className='section-header-item'>Decentralized </p>
+            <p className='section-header-item'>Derivatives</p>
+            <p className='section-header-item'>Liquidity</p>
+          </div>
+
+          <div className='tdm__diagram'>
+            <img src="/images/dashboard/diagram.svg" alt="" className='tdm-diagram--img' />
+          </div>
+        </div>
+
+
+
         <div className='description'>
           <div className='description-1'>
             <h2 className='title'>NO POSITION. NO ORDER BOOK.</h2>
@@ -88,7 +96,7 @@ const Dashboard = () => {
           </div>
           <div className='description-3'>
             <h2 className='title'>ANY COLLATERAL ASSET</h2>
-            <p className='des'>Collateralized by any redeemable on-chain asset: from the platform native currency to any
+            <p className='des mb-0'>Collateralized by any redeemable on-chain asset: from the platform native currency to any
               DeFi yield-bearing token.</p>
             <img src="/images/dashboard/diagram-3.png" alt="" className='diagram-3' />
           </div>
