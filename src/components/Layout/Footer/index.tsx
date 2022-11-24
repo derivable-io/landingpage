@@ -7,7 +7,7 @@ export const Footer = (props: any) => {
         <div className='footer__left'>
           <div className='footer__left--top'>
             <img src="/logo.png" alt="" />
-            <div className="footer__left--description">Open finance for everyone.</div>
+            <div className="footer__left--description">Open derivatives market for everyone.</div>
           </div>
           <div className='footer__left--socials'>
           </div>

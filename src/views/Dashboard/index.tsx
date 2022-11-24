@@ -7,29 +7,34 @@ import {BlurBackground} from "../../components/ui/BlurBackground";
 const features = [
   {
     image: 'decentralized.png',
-    title: 'Decentralized',
-    des: 'Non-custodial smart-contract with no central authority.'
+    title: 'Pure Decentralization',
+    des: 'Non-custodial smart-contracts with no permissioned role. No backend service.'
   },
   {
     image: 'optimized.png',
-    title: 'Optimized',
-    des: 'Designed for the cost and scarceness of Layer-1 platforms.'
+    title: 'Cost-Effective',
+    des: 'Changing exposure (or position) only costs as much as an AMM swap.'
+  },
+  {
+    image: 'decentralized.png',
+    title: 'User Friendly',
+    des: 'Long-short tokens can be traded professionally or HODL\'ed for long-term exposure with NO risk of liquidation.'
   },
   {
     image: 'automated.png',
-    title: 'Automated',
-    des: 'Safekeeping by market incentive.'
+    title: 'Open & Inclusive',
+    des: 'Any token can be listed. Anyone can take sides, either as liquidity providers or long-short traders.'
   },
   {
     image: 'over-collateralized.png',
-    title: 'Over-collateralized',
-    des: 'Timely tested contract keeping model, from asset-based lending and mortgage-backed security to MakerDAO, Compound, and Aave in the DeFi world.'
+    title: 'Self-Sustaining',
+    des: 'Under-collateralization is expected and naturally processed by pure mathematical methods.'
   },
   {
     image: 'capital-efficient.png',
-    title: 'Capital Efficient',
-    des: 'Lock less to earn more. Lock yield-bearing or liquidity provider tokens to gain more market exposure.'
-  }
+    title: 'Capital-Effective',
+    des: 'Lock less to gain more. Keep holding yield-bearing or liquidity tokens to acquire more market exposure.'
+  },
 ]
 
 const Dashboard = () => {
