@@ -8,20 +8,20 @@ const menus = [
     href: '/'
   },
   {
+    name: 'Exposure',
+    href: '/exposure'
+  },
+  {
     name: 'Swap',
-    href: '/'
+    href: '/swap'
   },
   {
-    name: 'Earn',
-    href: '/'
-  },
-  {
-    name: 'Create',
+    name: 'Derivatives',
     href: '/'
   },
   {
     name: 'Docs',
-    href: '/'
+    href: 'https://docs.derivable.io'
   },
 ]
 

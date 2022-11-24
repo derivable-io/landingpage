@@ -16,19 +16,19 @@ export const Footer = (props: any) => {
           <div className='footer__right--col'>
             <div className="title">ORGANIZATION</div>
             <div className='links'>
-              <a href="/">About</a>
-              <a href="/">Features</a>
-              <a href="/">Works</a>
-              <a href="/">Career</a>
+              <a href="https://t.me/derivablecs" target="_blank" rel="noreferrer">About</a>
+              <a href="https://t.me/derivablecs" target="_blank" rel="noreferrer">Features</a>
+              <a href="https://t.me/derivablecs" target="_blank" rel="noreferrer">Works</a>
+              <a href="https://t.me/derivablecs" target="_blank" rel="noreferrer">Career</a>
             </div>
           </div>
           <div className='footer__right--col'>
             <div className="title">HELP</div>
             <div className='links'>
-              <a href="/">Customer Support</a>
-              <a href="/">Terms</a>
-              <a href="/">Conditions</a>
-              <a href="/">Privacy Policy</a>
+              <a href="https://t.me/derivablecs" target="_blank" rel="noreferrer">Customer Support</a>
+              <a href="https://t.me/derivablecs" target="_blank" rel="noreferrer">Terms</a>
+              <a href="https://t.me/derivablecs" target="_blank" rel="noreferrer">Conditions</a>
+              <a href="https://t.me/derivablecs" target="_blank" rel="noreferrer">Privacy Policy</a>
             </div>
           </div>
           <div className='footer__right--col'>

@@ -40,7 +40,7 @@ const Dashboard = () => {
     <div className='head'>
       <div className='head__content'>
         <img className='head__typo' src="/images/dashboard/head-typo.png" alt="" />
-        <h1 className='head__title'>Trade, Earn, and Create your own Derivative Tokens.</h1>
+        <h1 className='head__title'>Trade, Earn, and Create your own Derivative Market.</h1>
       </div>
       <div className="overlay" />
     </div>
@@ -66,9 +66,9 @@ const Dashboard = () => {
 
         <div className='tdm'>
           <div className='section-header'>
-            <p className='section-header-item'>Decentralized </p>
+            <p className='section-header-item'>Traditional </p>
             <p className='section-header-item'>Derivatives</p>
-            <p className='section-header-item'>Liquidity</p>
+            <p className='section-header-item'>Market</p>
           </div>
 
           <div className='tdm__diagram'>
