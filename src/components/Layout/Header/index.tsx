@@ -16,8 +16,8 @@ const menus = [
     href: '/swap'
   },
   {
-    name: 'Derivatives',
-    href: '/'
+    name: 'Pools',
+    href: '/pools'
   },
   {
     name: 'Docs',
