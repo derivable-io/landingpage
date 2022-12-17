@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React from 'react'
 import './style.scss'
 import {useWindowSize} from "../../../hooks/useWindowSize";
 
@@ -8,12 +8,8 @@ const menus = [
     href: '/'
   },
   {
-    name: 'Exposure',
-    href: '/exposure'
-  },
-  {
-    name: 'Swap',
-    href: '/swap'
+    name: 'Trade',
+    href: '/trade'
   },
   {
     name: 'Pools',
